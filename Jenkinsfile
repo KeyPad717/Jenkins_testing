@@ -6,7 +6,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo 'Cloning repository'
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/KeyPad717/https://github.com/KeyPad717/Jenkins_testing.git'
             }
         }
 
@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing application'
-                sh 'python3 hello.py'
+                sh 'python3 test.py'
             }
         }
 
